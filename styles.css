@@ -1,1 +1,60 @@
 /* your code here */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+body{
+	background-color:black;
+	color:white;
+}
+.top{
+	display:flex;
+	align-items:center;
+	margin-top:20px;
+}
+.logo_name{
+	font-size:40px;
+	font-weight:500;
+	padding-left:20px;
+}
+.media-icons{
+	display:flex;
+	margin-left:auto;
+	padding-right:20px;
+	flex-wrap:wrap;
+	
+}
+.media-icons>a>img{
+	width:30px;
+	border:none;
+	border-radius:30px;
+	margin:5px;
+	margin-inline:10px;
+	flex-wrap:wrap;
+}
+.link-boxes{
+	display:flex;
+	text-align:left;
+	flex-wrap:wrap;
+}
+h3{
+	font-weight:200;
+}
+.lists>ul>a>li{
+	list-style-type:none;
+	text-decoration:none;
+}
+.lists>ul>a{
+	text-decoration:none;
+	color:white;
+}
+.lists{
+	margin:10px;
+}
+.bottom-details{
+	background-color:gray;
+	padding:15px;
+	display:flex;
+	justify-content:space-between
+}
